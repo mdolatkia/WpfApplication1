@@ -24,5 +24,13 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            UserControl1 uc = new WpfApplication1.UserControl1();
+            Window ss = new Window();
+            ss.Content = uc;
+            ss.Show();
+        }
     }
 }
